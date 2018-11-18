@@ -28,4 +28,11 @@ public class Player {
 	public void setScore(int score) {
 		this.score = score;
 	}
+
+	@Override
+	public String toString() {
+		return "<tr><td>" + username + "</td><td>" + score + "</td></tr>";
+	}
+	
+	
 }
